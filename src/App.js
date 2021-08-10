@@ -35,8 +35,6 @@ class App extends Component {
         
       ]
     }
-
-    // this.handleChange = this.handleChange.bind(this);
   }
 
   // lifecycle method
@@ -68,7 +66,7 @@ class App extends Component {
         <h1>Monsters Rolodex</h1>
 
         <SearchBox 
-          placeholder='search fucker' 
+          placeholder='Search Fucker' 
           handleChange={this.handleChange} 
         />
 
